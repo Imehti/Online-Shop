@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image:
+      url("loginPageImages/loginPage-3.avif");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  :root{--sign-up-display:block}
+  .sign-up{
+	display: var(--sign-up-display);
+	position: absolute;
+	top: calc(33% - 75px);
+	left: calc(67.5% - 50px);
+	height: 170px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+:root{--usernameInputColor:rgba(255,255,255,0.6)}
+.sign-up input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid var(--usernameInputColor);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+:root{--passwordInputColor:rgba(255,255,255,0.6)}
+.sign-up input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid var(--passwordInputColor);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+:root{--emailInputColor:rgba(255,255,255,0.6)}
+.sign-up input[type=email]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid var(--emailInputColor);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.sign-up button{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.sign-up button:hover{
+	opacity: 0.8;
+}
+
+.sign-up button:active{
+	opacity: 0.6;
+}
+
+.sign-up input[type=text]:focus{
+	outline: none;
+	border: 1px solid var(--usernameInputColor);
+}
+
+.sign-up input[type=password]:focus{
+	outline: none;
+	border: 1px solid var(--passwordInputColor);
+}
+
+.sign-up input[type=email]:focus{
+	outline: none;
+	border: 1px solid var(--emailInputColor);
+}
+
+.sign-up button:focus{
+	outline: none;
+}
+
+.sign-up h2{
+	position: absolute;
+	top: calc(9% - 75px);
+	left: calc(37% - 50px);
+	color:rgba(255, 251, 0, 0.795) ;
+
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+.sign-up-txt-box a{
+    text-decoration: none;
+	
+}
+.sign-up-txt-box a p{
+	position: relative;
+   color: rgba(255, 251, 0, 0.795);
+   display: inline-block;
+   font-family: 'Exo', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   padding: 9px;
+   margin-top: 40px;
+   margin-left:-146px;
+
+}
+#sign-up-a-hover :hover{
+    color: rgba(7, 255, 40, 0.808);
+    transition: 1s;
+}
+:root{--sign-in-display:none}
+.sign-in{
+	display: var(--sign-in-display);
+	position:absolute;
+	top: calc(36% - 75px);
+	left: calc(67.5% - 50px);
+	height: 170px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+:root{--usernameInputColor:rgba(255,255,255,0.6)}
+.sign-in input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid var(--usernameInputColor);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.sign-in button{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.sign-in button:hover{
+	opacity: 0.8;
+}
+
+.sign-in button:active{
+	opacity: 0.6;
+}
+
+.sign-in input[type=text]:focus{
+	outline: none;
+	border: 1px solid var(--usernameInputColor);
+}
+.sign-in h2{
+	position: absolute;
+	top: calc(-4% - 75px);
+	left: calc(37% - 50px);
+	color:rgba(255, 251, 0, 0.795) ;
+}
+.sign-in-txt-box a{
+    text-decoration: none;
+	
+}
+.sign-in-txt-box a p{
+	position: relative;
+   color: rgba(255, 251, 0, 0.795);
+   display: inline-block;
+   font-family: 'Exo', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   padding: 9px;
+   margin-top: 40px;
+   margin-left:-146px;
+
+}
+#sign-in-a-hover  :hover{
+    color: rgba(7, 255, 40, 0.808);
+    transition: 1s;
+}
+.sign-in-up{
+	position:absolute;
+	top: calc(36% - 75px);
+	left: calc(67.5% - 50px);
+	height: 170px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
